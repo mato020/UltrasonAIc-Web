@@ -196,7 +196,7 @@ a { text-decoration: none; }
 .partners-header h2 { font-size: 40px; font-weight: 900; color: #fff; margin-bottom: 12px; }
 .partners-header p { font-size: 16px; color: rgba(255,255,255,.5); max-width: 540px; margin: 0 auto; line-height: 1.8; }
 .partners-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 20px; margin-bottom: 40px; }
-.partner-card { border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,.08); }
+.partner-card { border-radius: 12px; overflow: hidden; border: 1px solid rgba(255,255,255,.08); display: flex; flex-direction: column; }
 .partner-header { padding: 28px 28px 24px; position: relative; overflow: hidden; }
 .partner-header-icon { position: absolute; right: 16px; top: 16px; opacity: .1; }
 .partner-key {
@@ -205,9 +205,9 @@ a { text-decoration: none; }
 }
 .partner-name { font-size: 22px; font-weight: 900; color: #fff; line-height: 1.1; margin-bottom: 4px; }
 .partner-full { font-size: 12px; color: rgba(255,255,255,.55); line-height: 1.5; }
-.partner-body { background: rgba(255,255,255,.04); padding: 20px 28px; }
+.partner-body { background: rgba(255,255,255,.04); padding: 20px 28px; flex: 1; display: flex; flex-direction: column; }
 .partner-body > p { font-size: 13px; color: rgba(255,255,255,.6); line-height: 1.8; margin-bottom: 18px; }
-.partner-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.partner-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: auto; }
 .partner-stat { background: rgba(255,255,255,.06); border-radius: 8px; padding: 10px 14px; }
 .partner-stat-label {
   font-size: 9px; color: rgba(255,255,255,.35); font-weight: 700;
@@ -689,7 +689,6 @@ a { text-decoration: none; }
           <div class="partner-stats">
             <div class="partner-stat"><div class="partner-stat-label">Budget</div><div class="partner-stat-val" style="color:#0072CE">954,780 EUR</div></div>
             <div class="partner-stat"><div class="partner-stat-label">Foerderquote</div><div class="partner-stat-val" style="color:#0072CE">80 %</div></div>
-            <div class="partner-stat"><div class="partner-stat-label">Stunden</div><div class="partner-stat-val" style="color:#0072CE">11,089 h</div></div>
           </div>
         </div>
       </div>
@@ -709,7 +708,6 @@ a { text-decoration: none; }
           <div class="partner-stats">
             <div class="partner-stat"><div class="partner-stat-label">Budget</div><div class="partner-stat-val" style="color:#005F73">894,458 EUR</div></div>
             <div class="partner-stat"><div class="partner-stat-label">Foerderquote</div><div class="partner-stat-val" style="color:#005F73">90 %</div></div>
-            <div class="partner-stat"><div class="partner-stat-label">Stunden</div><div class="partner-stat-val" style="color:#005F73">--</div></div>
           </div>
         </div>
       </div>
@@ -729,7 +727,6 @@ a { text-decoration: none; }
           <div class="partner-stats">
             <div class="partner-stat"><div class="partner-stat-label">Budget</div><div class="partner-stat-val" style="color:#CA6702">137,636 EUR</div></div>
             <div class="partner-stat"><div class="partner-stat-label">Foerderquote</div><div class="partner-stat-val" style="color:#CA6702">90 %</div></div>
-            <div class="partner-stat"><div class="partner-stat-label">Stunden</div><div class="partner-stat-val" style="color:#CA6702">--</div></div>
           </div>
         </div>
       </div>
